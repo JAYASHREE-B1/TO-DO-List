@@ -1,0 +1,120 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,button{
+    padding: 8px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+li{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.Completed{
+    text-decoration: line-through;
+    color: #888;   
+}
+.task-button{
+    display: flex;
+    gap: 10px;
+}
+.task-button button{
+    padding: 5px 10px;
+
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c3c3c3; 
+    margin: 0;
+    padding: 20px;
+}
+
+
+input, button {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.Completed {
+    text-decoration: line-through;
+    color: #aaa; /
+}
+
+
+.task-button {
+    display: flex;
+    gap: 10px;
+}
+
+
+.task-button button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #444; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.task-button button:nth-child(1) {
+    background-color: #ffcccc; 
+    color: #a00; 
+}
+
+.task-button button:nth-child(1):hover {
+    background-color: #ff9999; 
+}
+
+
+.task-button button:nth-child(2) {
+    background-color: #ccffcc;
+    color: #008000; 
+}
+
+.task-button button:nth-child(2):hover {
+    background-color: #99ff99; 
+}
